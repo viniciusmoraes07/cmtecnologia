@@ -62,7 +62,7 @@ export default class Principal extends Component{
 
                    <a href="#" style={{color:'white',marginLeft:30,marginTop:90,textDecoration:'none',verticalAlign:'middle'}}>Estatística</a>
 
-                   <a href="#s" style={{color:'white',marginLeft:30,marginTop:90,textDecoration:'none',verticalAlign:'middle'}}>Saiba Mais</a>
+                   <a href="#ss" style={{color:'white',marginLeft:30,marginTop:90,textDecoration:'none',verticalAlign:'middle'}}>Saiba Mais</a>
                      
                    
                 </div>
