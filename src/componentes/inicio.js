@@ -40,6 +40,8 @@ export default class Principal extends Component{
 
         const response3 = await api.get('deaths');
 
+    
+
         
         this.setState({data:response.data[response.data.length-1].Date.substring(0,10),
                         casos:response.data[response.data.length-1].Cases,
@@ -60,7 +62,7 @@ export default class Principal extends Component{
 
                    <a href="#" style={{color:'white',marginLeft:30,marginTop:90,textDecoration:'none',verticalAlign:'middle'}}>Estatística</a>
 
-                   <a href="#" style={{color:'white',marginLeft:30,marginTop:90,textDecoration:'none',verticalAlign:'middle'}}>Saiba Mais</a>
+                   <a href="#s" style={{color:'white',marginLeft:30,marginTop:90,textDecoration:'none',verticalAlign:'middle'}}>Saiba Mais</a>
                      
                    
                 </div>
